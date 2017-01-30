@@ -1,6 +1,4 @@
-(function () {
-	"use strict";
-	Array.from(document.querySelectorAll('input[type="password"]')).map(input => {
-		input.type = "text";
-	});
-})();
+"use strict";
+document.querySelectorAll('input[type="password"]').forEach(input => {
+	input.type = "text";
+});
